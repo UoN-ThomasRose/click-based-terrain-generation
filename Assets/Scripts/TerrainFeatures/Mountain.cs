@@ -16,4 +16,8 @@ public class Mountain {
     public Mountain(int xPos, int yPos) {
         mapPos = new Vector2(xPos, yPos);
     }
+
+    //public string toString() {
+        //return "X pos: " + mapPos.x + ". Y pos:" + mapPos.y + ".";
+    //}
 }

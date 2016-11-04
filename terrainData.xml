@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldMaster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <mountains>
+    <Mountain>
+      <mapPos>
+        <x>49</x>
+        <y>104</y>
+      </mapPos>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>9</x>
+        <y>69</y>
+      </mapPos>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>73</x>
+        <y>49</y>
+      </mapPos>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>32</x>
+        <y>26</y>
+      </mapPos>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>76</x>
+        <y>100</y>
+      </mapPos>
+    </Mountain>
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+    <Mountain xsi:nil="true" />
+  </mountains>
+</WorldMaster>

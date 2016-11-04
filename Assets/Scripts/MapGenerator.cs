@@ -1,18 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.IO;
 using System.Xml;
+using System.Xml.Serialization;
 using System.Text;
 
 public class MapGenerator : MonoBehaviour {
 
     // Public Variables
     public int dimension;
-    public Terrain terrainMesh;
     public string dataFileName = "TerrainData";
-    public bool editMode; 
+    public Terrain terrainMesh;
+    public bool editMode;
 
     // Terrain Features
-    public Mountain[] worldMountains = new Mountain[100];
+    public WorldMaster world = new WorldMaster();
+
+    public MapGenerator() {
+        terrainMesh = GetComponent<Terrain>();
+    }
 
     public void GenerateMap() {
         terrainMesh.terrainData.size = new Vector3(dimension, 255, dimension);
@@ -39,21 +45,40 @@ public class MapGenerator : MonoBehaviour {
     }
 
     public void ClearMapData() {
-        for (int i = 0; i < worldMountains.Length; i++)
-            worldMountains[i] = null;
+        for (int i = 0; i < world.mountains.Length; i++)
+            world.mountains[i] = null;
         Debug.Log("Map data has been cleared.");
     }
 
     public void LoadXMLData() {
         Debug.Log("Loading XML data...");
-        // TODO: Add code for XML loading
+
+        using(FileStream fs = new FileStream(dataFileName + ".xml", FileMode.Open)) {
+            XmlSerializer xs = new XmlSerializer(typeof(WorldMaster));
+            world = (WorldMaster) xs.Deserialize(fs);
+        }
+
+        // Debug
+        for (int i = 0; i < world.mountains.Length; i++) {
+            if (world.mountains[i] == null) break;
+            Debug.Log("Mountain " + i + ". X = " + world.mountains[i].mapPos.x + ". Y = " + world.mountains[i].mapPos.y);
+        }
+
+        Debug.Log("XML data has loaded.");
     }
 
     public void SaveXMLData() {
-        XmlTextWriter writer = new XmlTextWriter(dataFileName + ".xml", Encoding.UTF8);
-        writer.Formatting = Formatting.Indented;
+        Debug.Log("Saving the terrain features...");
 
         // Save the mountain data in XML
+        XmlSerializer xs = new XmlSerializer(typeof(WorldMaster));
+        TextWriter tw = new StreamWriter(dataFileName + ".xml");
+        xs.Serialize(tw, world);
+        tw.Close();
+
+        /*
+        XmlTextWriter writer = new XmlTextWriter(dataFileName + ".xml", Encoding.UTF8);
+        writer.Formatting = Formatting.Indented;
         for (int i = 0; i < worldMountains.Length; i++) {
             if (worldMountains[i] == null) break;
 
@@ -69,9 +94,11 @@ public class MapGenerator : MonoBehaviour {
             writer.WriteEndElement();
             writer.WriteEndElement();
         }
+        writer.Close();
+        */
 
         Debug.Log("Terrain features have been saved in XML.");
-        writer.Close();
+        
     }
 
     void Update() {

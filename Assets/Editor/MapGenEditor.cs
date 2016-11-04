@@ -8,7 +8,7 @@ using System.Text;
 public class MapGenEditor : Editor {
 
     /**
-     * TODO: Add XML file loading
+     * TODO: Add support for additional terrain classes
     **/
 
     MapGenerator mapGen;
@@ -17,7 +17,13 @@ public class MapGenEditor : Editor {
 
         mapGen = (MapGenerator)target;
 
-        DrawDefaultInspector();
+        // Custom GUI
+        EditorGUILayout.LabelField("General Settings", EditorStyles.boldLabel);
+        mapGen.dimension = EditorGUILayout.IntSlider("Dimension", mapGen.dimension, 128, 512);
+        mapGen.dataFileName = EditorGUILayout.TextField("XML File", "TerrainData");
+        mapGen.terrainMesh = (Terrain) EditorGUILayout.ObjectField("Terrain", mapGen.terrainMesh, typeof(Terrain), true);
+        mapGen.editMode = EditorGUILayout.Toggle("Edit Mode", mapGen.editMode);
+
 
         // XML Options
         GUILayout.Label("XML Data Controls", EditorStyles.boldLabel);
@@ -43,9 +49,6 @@ public class MapGenEditor : Editor {
                 if (Event.current.button == 0) { // left click
                     PlaceFeature();
                 }
-                if (Event.current.button == 1) { // right click (TODO: Map this to something better!)
-                    //mapGen.SaveFeatures();
-                }
             } else { Debug.Log("Edit mode is disabled! Please enable it in the script options.");  }
         }
     }
@@ -61,22 +64,22 @@ public class MapGenEditor : Editor {
 
             // Find Empty Mountain Index
             int index = 0;
-            for (int i = 0; i < mapGen.worldMountains.Length; i++) {
-                if (mapGen.worldMountains[i] == null) {
+            for (int i = 0; i < mapGen.world.mountains.Length; i++) {
+                if (mapGen.world.mountains[i] == null) {
                     index = i;
                     break;
                 }
             }
 
             // DEBUG CUBE SPAWN - START 
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            cube.transform.position = new Vector3(terrainClick.x, 0, terrainClick.y);
+            // GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+            // cube.transform.position = new Vector3(terrainClick.x, 0, terrainClick.y);
             // DEBUG - END 
 
             // Store Mountain Object at Click Coordinates
-            mapGen.worldMountains[index] = new Mountain();
-            mapGen.worldMountains[index].mapPos = terrainClick;
-            Debug.Log("Mountain Index: " + index + ". Mountain X: " + mapGen.worldMountains[index].mapPos.x + ". Mountain Y: " + mapGen.worldMountains[index].mapPos.y + ".");
+            mapGen.world.mountains[index] = new Mountain();
+            mapGen.world.mountains[index].mapPos = terrainClick;
+            Debug.Log("Mountain Index: " + index + ". Mountain X: " + mapGen.world.mountains[index].mapPos.x + ". Mountain Y: " + mapGen.world.mountains[index].mapPos.y + ".");
         }
     }
 
