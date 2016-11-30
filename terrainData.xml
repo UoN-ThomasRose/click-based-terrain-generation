@@ -3,72 +3,520 @@
   <mountains>
     <Mountain>
       <mapPos>
-        <x>49</x>
-        <y>104</y>
+        <x>97</x>
+        <y>29</y>
       </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
     </Mountain>
     <Mountain>
       <mapPos>
-        <x>9</x>
+        <x>102</x>
+        <y>98</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>41</x>
+        <y>51</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>40</x>
+        <y>78</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>70</x>
+        <y>89</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>72</x>
+        <y>54</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>35</x>
+        <y>70</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>36</x>
+        <y>70</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>36</x>
+        <y>70</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>38</x>
         <y>69</y>
       </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
     </Mountain>
     <Mountain>
       <mapPos>
-        <x>73</x>
-        <y>49</y>
+        <x>39</x>
+        <y>67</y>
       </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
     </Mountain>
     <Mountain>
       <mapPos>
-        <x>32</x>
-        <y>26</y>
+        <x>49</x>
+        <y>70</y>
       </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>62</x>
+        <y>79</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>39</x>
+        <y>64</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>39</x>
+        <y>63</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>39</x>
+        <y>62</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>45</x>
+        <y>53</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>45</x>
+        <y>53</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>34</x>
+        <y>67</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>56</x>
+        <y>82</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>58</x>
+        <y>80</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>59</x>
+        <y>77</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>59</x>
+        <y>75</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>55</x>
+        <y>68</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>41</x>
+        <y>70</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>37</x>
+        <y>74</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>37</x>
+        <y>81</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>47</x>
+        <y>88</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>36</x>
+        <y>65</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>25</x>
+        <y>84</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>26</x>
+        <y>53</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
+    <Mountain>
+      <mapPos>
+        <x>28</x>
+        <y>50</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
     </Mountain>
     <Mountain>
       <mapPos>
         <x>76</x>
-        <y>100</y>
+        <y>59</y>
       </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
     </Mountain>
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
-    <Mountain xsi:nil="true" />
+    <Mountain>
+      <mapPos>
+        <x>44</x>
+        <y>98</y>
+      </mapPos>
+      <roughness>0</roughness>
+      <peakHeight>0</peakHeight>
+      <groundDimensions>
+        <x>0</x>
+        <y>0</y>
+      </groundDimensions>
+    </Mountain>
     <Mountain xsi:nil="true" />
     <Mountain xsi:nil="true" />
     <Mountain xsi:nil="true" />
@@ -127,4 +575,106 @@
     <Mountain xsi:nil="true" />
     <Mountain xsi:nil="true" />
   </mountains>
+  <hills>
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+    <Hill xsi:nil="true" />
+  </hills>
 </WorldMaster>

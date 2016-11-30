@@ -16,11 +16,8 @@ public class MapGenerator : MonoBehaviour {
     // Terrain Features
     public WorldMaster world = new WorldMaster();
 
-    public MapGenerator() {
-        terrainMesh = GetComponent<Terrain>();
-    }
-
     public void GenerateMap() {
+        terrainMesh = GetComponent<Terrain>();
         terrainMesh.terrainData.size = new Vector3(dimension, 255, dimension);
 
         float[,] map = new float[dimension, dimension];
@@ -34,6 +31,7 @@ public class MapGenerator : MonoBehaviour {
     }
 
     public void FlattenMap() {
+        terrainMesh = GetComponent<Terrain>();
         float[,] map = new float[dimension, dimension];
 
         // Flatten the map - set all height values to 0
@@ -76,26 +74,24 @@ public class MapGenerator : MonoBehaviour {
         xs.Serialize(tw, world);
         tw.Close();
 
-        /*
-        XmlTextWriter writer = new XmlTextWriter(dataFileName + ".xml", Encoding.UTF8);
-        writer.Formatting = Formatting.Indented;
-        for (int i = 0; i < worldMountains.Length; i++) {
-            if (worldMountains[i] == null) break;
+        //xmltextwriter writer = new xmltextwriter(datafilename + ".xml", encoding.utf8);
+        //writer.formatting = formatting.indented;
+        //for (int i = 0; i < worldmountains.length; i++) {
+        //    if (worldmountains[i] == null) break;
 
-            writer.WriteStartElement("Mountain");
-            writer.WriteStartElement("Index");
-            writer.WriteString(i.ToString());
-            writer.WriteEndElement();
-            writer.WriteStartElement("X Position");
-            writer.WriteString(worldMountains[i].mapPos.x.ToString());
-            writer.WriteEndElement();
-            writer.WriteStartElement("Y Position");
-            writer.WriteString(worldMountains[i].mapPos.y.ToString());
-            writer.WriteEndElement();
-            writer.WriteEndElement();
-        }
-        writer.Close();
-        */
+        //    writer.writestartelement("mountain");
+        //    writer.writestartelement("index");
+        //    writer.writestring(i.tostring());
+        //    writer.writeendelement();
+        //    writer.writestartelement("x position");
+        //    writer.writestring(worldmountains[i].mappos.x.tostring());
+        //    writer.writeendelement();
+        //    writer.writestartelement("y position");
+        //    writer.writestring(worldmountains[i].mappos.y.tostring());
+        //    writer.writeendelement();
+        //    writer.writeendelement();
+        //}
+        //writer.close();
 
         Debug.Log("Terrain features have been saved in XML.");
         
